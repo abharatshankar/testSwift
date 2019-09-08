@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6BF4443E2325A9C800C39886 /* testSwift_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSwift_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF4443E2325A9C800C39886 /* testSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF444412325A9C800C39886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BF444432325A9C800C39886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6BF444462325A9C800C39886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		6BF444352325A9C700C39886 = {
 			isa = PBXGroup;
 			children = (
-				6BF444402325A9C800C39886 /* testSwift_2 */,
+				6BF444402325A9C800C39886 /* testSwift */,
 				6BF4443F2325A9C800C39886 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		6BF4443F2325A9C800C39886 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BF4443E2325A9C800C39886 /* testSwift_2.app */,
+				6BF4443E2325A9C800C39886 /* testSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6BF444402325A9C800C39886 /* testSwift_2 */ = {
+		6BF444402325A9C800C39886 /* testSwift */ = {
 			isa = PBXGroup;
 			children = (
 				6BF444412325A9C800C39886 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				6BF4444A2325A9C900C39886 /* LaunchScreen.storyboard */,
 				6BF4444D2325A9C900C39886 /* Info.plist */,
 			);
-			path = testSwift_2;
+			path = testSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BF4443D2325A9C800C39886 /* testSwift_2 */ = {
+		6BF4443D2325A9C800C39886 /* testSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BF444502325A9C900C39886 /* Build configuration list for PBXNativeTarget "testSwift_2" */;
+			buildConfigurationList = 6BF444502325A9C900C39886 /* Build configuration list for PBXNativeTarget "testSwift" */;
 			buildPhases = (
 				6BF4443A2325A9C800C39886 /* Sources */,
 				6BF4443B2325A9C800C39886 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = testSwift_2;
+			name = testSwift;
 			productName = testSwift_2;
-			productReference = 6BF4443E2325A9C800C39886 /* testSwift_2.app */;
+			productReference = 6BF4443E2325A9C800C39886 /* testSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6BF444392325A9C700C39886 /* Build configuration list for PBXProject "testSwift_2" */;
+			buildConfigurationList = 6BF444392325A9C700C39886 /* Build configuration list for PBXProject "testSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BF4443D2325A9C800C39886 /* testSwift_2 */,
+				6BF4443D2325A9C800C39886 /* testSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = KGRX6TP52P;
-				INFOPLIST_FILE = testSwift_2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/testSwift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +306,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = KGRX6TP52P;
-				INFOPLIST_FILE = testSwift_2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/testSwift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BF444392325A9C700C39886 /* Build configuration list for PBXProject "testSwift_2" */ = {
+		6BF444392325A9C700C39886 /* Build configuration list for PBXProject "testSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BF4444E2325A9C900C39886 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BF444502325A9C900C39886 /* Build configuration list for PBXNativeTarget "testSwift_2" */ = {
+		6BF444502325A9C900C39886 /* Build configuration list for PBXNativeTarget "testSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6BF444512325A9C900C39886 /* Debug */,
